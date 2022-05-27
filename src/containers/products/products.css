@@ -1,0 +1,31 @@
+.gpt3__products {
+    background-color: #fff;
+    font-family: var(--font-family);
+}
+
+.gpt3__products-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 4rem 0 2rem;
+}
+
+.gpt3__products-feature {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 2rem;
+}
+
+.gpt3__products-feature .gpt__features-container__feature {
+    margin: 0;
+}
+
+.gpt3__products-feature .gpt__features-container__feature-text {
+    max-width: 700px;
+}
