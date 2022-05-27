@@ -8,10 +8,10 @@ import './navbar.css';
 
 const Menu = () => (
   <>
-  <p><a href="#home">Projects</a></p>
-  <p><a href="#wgpt3">Products</a></p>
-  <p><a href="#possibility">About Us</a></p>
-  <p><a href="#features">Support</a></p>
+  <p><a href="#projects">Projects</a></p>
+  <p><a href="#products">Products</a></p>
+  <p><a href="#aboutus">About Us</a></p>
+  <p><a href="#support">Support</a></p>
   </>
 )
 

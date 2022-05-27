@@ -9,7 +9,7 @@ import deadfella from '../../assets/deadfella.png';
 
 const Header = () => {
   return (
-    <div className='gpt3__header section__padding' id="home">
+    <div className='gpt3__header section__padding' id="projects">
       <div className='gpt3__header-content'>
         <h1 className='gradient__text'>Community is everything</h1>
         <h2>hub³ is a web³ <del>agency</del>, <del>platform</del>, community like no other.</h2>
