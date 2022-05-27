@@ -40,7 +40,7 @@ const Navbar = () => {
           <img src={instagram} alt="instagram" />
           </a>
         </div>
-        <button type="button">CONNECT</button>
+        {/* <button type="button">CONNECT</button> */}
       </div>
       <div className='gpt3__navbar-menu'>
         {toggleMenu
@@ -48,7 +48,7 @@ const Navbar = () => {
           : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />
         }
         {toggleMenu && (
-          <div className='gpt3__navbar-menu_container scale-up-center'>
+          <div className='gpt3__navbar-menu_container scale-up-tr'>
             <div className='spt3__navbar-menu_container-links'>
               <Menu />
                 <div className='gpt3__navbar-menu_container-links-sign'>
@@ -63,7 +63,7 @@ const Navbar = () => {
                   <img src={instagram} alt="instagram" />
                   </a>
                 </div>
-                  <button type="button">CONNECT</button>
+                  {/* <button type="button">CONNECT</button> */}
                 </div>
             </div>
           </div>
