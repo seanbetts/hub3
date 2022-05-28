@@ -1,0 +1,104 @@
+.gpt3__contact.section__margin {
+    display: flex;
+    flex-direction: row;
+}
+
+.gpt3__contact {
+    background-color: #fff;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.gpt3__contact-heading {
+    display: flex;
+    width: 55%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+
+    margin: 2rem 1rem 1rem;
+}
+
+.gpt3__contact-input {
+    width: 45%;
+    margin: 2rem 1rem 1rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.gpt3__contact-input input {
+    width: 300px;
+    height: 40px;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0 1rem;
+    text-align: center;
+    color: #000;
+    background: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    border-radius: 5px 0px 0px 5px;
+    border: 2px solid #FF3D94;
+    outline: none;
+    cursor: pointer;
+}
+
+.gpt3__contact-input button {
+    height: 40px;
+    padding: 0.5rem 2rem;
+    color: #fff;
+    background: #FF3D94;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    border-radius: 0px 5px 5px 0px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1050px) {
+    .gpt3__contact.section__margin {
+        flex-direction: column;
+    }
+
+    .gpt3__contact {
+        margin: 0 0 3rem;
+    }
+
+    .gpt3__contact-heading {
+        width: 90%;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .gpt3__contact-input {
+        width: 90%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .gpt3__contact.section__margin {
+        flex-direction: column;
+    }
+
+    .gpt3__contact {
+        margin: 0 0 3rem;
+    }
+
+    .gpt3__contact-heading {
+        width: 90%;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .gpt3__contact-input {
+        width: 90%;
+        justify-content: center;
+    }
+}

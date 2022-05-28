@@ -36,3 +36,24 @@
 
     margin-top: 1rem;
 }
+
+@media screen and (max-width: 1050px) {
+    .gpt3__features-container__feature {
+        margin: 1rem;
+    }
+
+    .gpt3__features-container__features-button button {
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .gpt3__features-container__feature {
+        width: 90%;
+        margin: 1rem;
+    }
+
+    .gpt3__features-container__features-button button {
+        padding: 0.5rem 1rem;
+    }
+}
