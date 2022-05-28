@@ -15,22 +15,42 @@ const Footer = () => {
         <div className='gpt3__footer-links-menu'>
           <div className='gpt3__footer-links_div'>
             <h4>Products</h4>
+            <a href="https://vibeIntel.hub-3.xyz">
             <p>vibeIntel</p>
+            </a>
+            <a href="https://vibeAlerts.hub-3.xyz">
             <p>vibeAlerts</p>
+            </a>
+            <a href="https://vibeWars.hub-3.xyz">
             <p>vibeWars</p>
+            </a>
+            <a href="https://vibeDAO.hub-3.xyz">
             <p>vibeDAO</p>
+            </a>
           </div>
           <div className='gpt3__footer-links_div'>
             <h4>Support</h4>
+            <a href="https://www.hub-3.xyz/knowledge-base">
             <p>Knowledge Base</p>
+            </a>
+            <a href="https://www.hub-3.xyz/community">
             <p>Community</p>
+            </a>
+            <a href="https://www.hub-3.xyz/contact-us">
             <p>Contact Us</p>
+            </a>
           </div>
           <div className='gpt3__footer-links_div'>
             <h4>Company</h4>
+            <a href="https://www.hub-3.xyz/about-us">
             <p>About Us</p>
+            </a>
+            <a href="https://www.hub-3.xyz/products">
             <p>Products</p>
+            </a>
+            <a href="https://www.hub-3.xyz/services">
             <p>Services</p>
+            </a>
           </div>
         </div>
         </div>

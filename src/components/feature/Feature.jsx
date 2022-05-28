@@ -1,7 +1,7 @@
 import React from 'react';
 import './feature.css';
 
-const Feature = ({ title, text }) => {
+const Feature = ({ title, text, url }) => {
   return (
     <div className='gpt3__features-container__feature'>
       <div className='gpt3__features-container__feature-title'>
@@ -12,7 +12,9 @@ const Feature = ({ title, text }) => {
           {text}
       </div>
       <div className='gpt3__features-container__features-button'>
+        <a href={url}>
         <button type="button">Learn More</button>
+        </a>
       </div>
     </div>
   )

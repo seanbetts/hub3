@@ -17,6 +17,10 @@
     justify-content: space-between;
 }
 
+.gpt3__footer-links_div p:hover {
+    text-decoration: underline;
+}
+
 .gpt3__footer-logo {
     width: 50%;
 }
